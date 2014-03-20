@@ -10,8 +10,7 @@ def watch_dir(path):
 
 		# print path to all filenames.
 		for filename in filenames:
-			file_found = {}
-			file_found["url"] = os.path.join(dirname, filename)[len(path)+1:]
+			file_found = os.path.join(dirname, filename)[len(path)+1:]
 			files.append(file_found)
 
 		if '.git' in dirnames:
