@@ -1,4 +1,4 @@
-seedsJS-framework
+Foundation-webapp
 =================
 
-a micro-framework on the top of ember and requireJS, to build modular and maintenable web apps
+An extension-based empty app for bootstraping web projects, on the top of EmberJS and RequireJS

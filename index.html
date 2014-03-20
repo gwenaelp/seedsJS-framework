@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<!-- CSS -->
+<!-- 		<link rel="stylesheet" href="/static/webcore-libs/bootstrap/3.0.3/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/static/canopsis/style.css" /> -->
+		<script type='text/x-handlebars' data-template-name='menu'>
+			<h1>menu</h1>
+			<ul class="breadcrumb">
+				{{#each view.items}}
+					<li>{{#link-to label}}{{label}}{{/link-to}}</li>
+				{{/each}}
+
+			</ul>
+		</script>
+		<script type="text/x-handlebars">
+			<h1>Ember Foundation App</h1>
+
+			{{menu name="main_menu"}}
+			<div>
+				{{outlet}}
+			</div>
+		</script>
+		<!-- console -->
+		<script type="application/javascript"
+			   src="utils/console.js">
+		</script>
+		<!-- RequireJS -->
+		<script type="application/javascript"
+			   src="lib/require.js"
+			   data-main="config">
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
+
+
+
