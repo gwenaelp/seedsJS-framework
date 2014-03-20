@@ -10,8 +10,8 @@
 		"appears_on": ["main_menu"]
 	}]
 },{
-	"url": "run",
-	"require": "",
+	"url": "dashboard",
+	"require": "mct",
 	"description": "Run",
-	"appears_on": []
+	"appears_on": ["main_menu"]
 }]

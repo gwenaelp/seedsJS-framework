@@ -15,26 +15,14 @@ define([
 	application.MenuView = Ember.View.extend({
 		templateName: 'menu',
 		items: function() {
-			console.old.log("application.menus[this.get('name')]");
-			console.old.log(application.menus[this.get('name')]);
 			return application.menus[this.get('name')];
-		}.property('items'),
-		
-		testVar:"aa"
+		}.property('items')
 	});
 
-	Ember.Handlebars.helper('menu', application.MenuView);
-
-	application.IndexRoute = Ember.Route.extend({
-		setupController: function(controller) {
-			// Set the IndexController's `title`
-			// console.log("index route");
 		}
 	});
 
 	routesLoader.initializeRoutes(application, JSON.parse(routes));
-
-	console.log("test application");
 
 	return application;
 });
