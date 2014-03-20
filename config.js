@@ -3,7 +3,7 @@ require.config({
 		'app': 'app',
 		'lib': 'lib',
 
-		'foundation': 'lib/foundation',
+		'seeds': 'lib/seeds',
 		'jquery': 'lib/jquery',
 
 		'handlebars': 'lib/handlebars-1.0.0',
@@ -25,6 +25,6 @@ require.config({
 	}
 });
 
-require(['foundation/utils/console'], function() {
+require(['seeds/utils/console'], function() {
 	require(['main']);
 });

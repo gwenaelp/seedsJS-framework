@@ -2,7 +2,7 @@ define([
 	'jquery',
 	'app/lib/ember',
 	'app/lib/ember-data',
-	"lib/foundation/RoutesLoader",
+	"lib/seeds/RoutesLoader",
 	"app/utils/SignalManager",
 	"text!app/routes.json"
 ], function($, Ember, DS, routesLoader,signalManager, routes) {
@@ -18,9 +18,7 @@ define([
 			return application.menus[this.get('name')];
 		}.property('items')
 	});
-
-		}
-	});
+	Ember.Handlebars.helper('menu', application.MenuView);
 
 	routesLoader.initializeRoutes(application, JSON.parse(routes));
 
