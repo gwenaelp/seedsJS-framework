@@ -1,20 +1,12 @@
 {
     "controllers": [
-        {
-            "url": "dashboard.js"
-        }
+        "dashboard.js"
     ], 
     "models": [
-        {
-            "url": "dashboard.js"
-        }
+        "dashboard.js"
     ], 
     "templates": [
-        {
-            "url": "application.html"
-        }, 
-        {
-            "url": "dashboard.html"
-        }
+        "application.html", 
+        "dashboard.html"
     ]
 }
