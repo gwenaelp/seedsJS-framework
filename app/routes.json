@@ -1,17 +1,14 @@
 [{
 	"url": "build",
-	"require": "",
 	"description": "Build",
 	"appears_on": ["main_menu"],
 	"children": [{
 		"url": "consolidations",
-		"require": "",
 		"description": "Consos",
 		"appears_on": ["main_menu"]
 	}]
 },{
 	"url": "dashboard",
-	"require": "mct",
 	"description": "Run",
 	"appears_on": ["main_menu"]
 }]
