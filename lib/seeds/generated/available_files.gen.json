@@ -1,12 +1,16 @@
 {
     "controllers": [
-        "dashboard.js"
+        "dashboard.js", 
+        "users.js"
     ], 
     "models": [
         "dashboard.js"
     ], 
     "templates": [
         "application.html", 
-        "dashboard.html"
+        "users.html"
+    ], 
+    "views": [
+        "users.js"
     ]
 }

@@ -1,0 +1,23 @@
+[{
+	"type": "route",
+	"name": "build",
+	"description": "Build",
+	"appears_on": ["main_menu"],
+	"children": [{
+		"type": "route",
+		"name": "consolidations",
+		"require": "",
+		"description": "Consos",
+		"appears_on": ["main_menu"]
+	}]
+},{
+	"type": "action",
+	"name": "testaction",
+	"description": "show mmenu",
+	"appears_on": ["main_menu"]
+},{
+	"type": "route",
+	"name": "users",
+	"description": "users",
+	"appears_on": ["main_menu"]
+}]

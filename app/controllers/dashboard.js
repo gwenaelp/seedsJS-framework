@@ -1,11 +1,11 @@
 define([
 	'jquery',
 	'app/lib/ember',
-	'app/application',
-	'app/models/dashboard'
-], function($, Ember, Application, Dashboard) {
+	'app/application'
+], function($, Ember, Application) {
 
 	Application.DashboardController = Ember.ObjectController.extend({
+		
 	});
 
 	return Application.DashboardController;
