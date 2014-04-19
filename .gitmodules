@@ -1,0 +1,3 @@
+[submodule "utils/console"]
+	path = utils/console
+	url = https://github.com/gwenaelp/console.js.git
